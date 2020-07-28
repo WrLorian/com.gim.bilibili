@@ -11,6 +11,9 @@ public class video {
     private String videoInt;
     private Date videoTime;
     private Integer columnId;
+    private Integer clickNum;
+    private Integer likeNum;
+    private Integer coinNum;
 
     public Integer getVideoId() {
         return videoId;
@@ -74,5 +77,29 @@ public class video {
 
     public void setColumnId(Integer columnId) {
         this.columnId = columnId;
+    }
+
+    public Integer getClickNum() {
+        return clickNum;
+    }
+
+    public void setClickNum(Integer clickNum) {
+        this.clickNum = clickNum;
+    }
+
+    public Integer getLikeNum() {
+        return likeNum;
+    }
+
+    public void setLikeNum(Integer likeNum) {
+        this.likeNum = likeNum;
+    }
+
+    public Integer getCoinNum() {
+        return coinNum;
+    }
+
+    public void setCoinNum(Integer coinNum) {
+        this.coinNum = coinNum;
     }
 }
